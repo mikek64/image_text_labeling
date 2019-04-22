@@ -1,0 +1,39 @@
+# Items should be entered in this file as tab delimited key value pairs
+
+
+# Base 64 encoding in format needed by Google Vision
+B64	C:/apps/b64/b64.exe
+
+CURL	C:/apps/curl-7.62.0-win32-mingw/bin/curl.exe
+
+# api key to authorise comms with Google Vision
+KEYFILE	C:/apps/apikey.txt
+
+# Vectorisation file - e.g. GloVe50
+WORD_VEC	C:/apps/GloVe/glove.6B.50d.txt
+
+# Word file.  list of words for random word generation
+WORDS	C:/apps/words.txt
+
+# Training data folder
+TRAINING_DATA	example_data
+
+# Training data generation folder containing the tags
+TRAINING_DATA_GENERATION	example_tags
+
+# Temp data folder for processing predictions
+TEMP_DATA	D:/Data/InvoiceTemp
+
+# Images default folder for evaluation
+IMAGES	D:/Data/InvoiceImages
+
+# Label master file - create your own version and save it
+LABEL_MASTER	D:/Repos/invoices/Example_Labels_Master.csv
+
+# Current model. specify either a particular .pkl file or a path.  if a path is specified it will take the latest compatible model in the path
+MODEL	D:/Repos/image_tagging_invoices/models
+
+# File to be used for testing
+TEST_FILE	inv1
+
+

@@ -1,0 +1,6 @@
+File, Probability present, value id, label id, data type, param 1, param 2
+tag_customer_id.csv, 0.9, 13, 14, mixed, 4, 4
+tag_document_date.csv, 1.0, 9, 10, date,,
+tag_document_id.csv, 1.0, 11, 12, mixed, 2, 8
+tag_sub_total.csv, 0.9, 7, 8, decimal, 8, 2
+tag_total.csv, 1.0, 3, 4, decimal, 8, 2
